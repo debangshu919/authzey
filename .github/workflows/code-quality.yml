@@ -24,3 +24,5 @@ jobs:
           version: latest
       - name: Run Biome
         run: biome ci .
+      - name: Format code
+        run: biome format .
