@@ -1,0 +1,40 @@
+{
+	"name": "setup-auth",
+	"version": "1.0.0",
+	"description": "CLI tool to setup authentication in Next.js using pluggable auth providers.",
+	"keywords": [
+		"authentication",
+		"nextjs",
+		"bootstrapper"
+	],
+	"homepage": "https://github.com/debangshu919/setup-auth#readme",
+	"bugs": {
+		"url": "https://github.com/debangshu919/setup-auth/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/debangshu919/setup-auth.git"
+	},
+	"license": "MIT",
+	"author": "Debangshu",
+	"type": "module",
+	"main": "dist/index.js",
+	"scripts": {
+		"lint": "biome lint .",
+		"format": "biome format --write .",
+		"prepare": "husky"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.3.10",
+		"husky": "^9.1.7",
+		"jest": "^30.2.0",
+		"lint-staged": "^16.2.7",
+		"typescript": "^5.9.3"
+	},
+	"lint-staged": {
+		"*.{js,jsx,ts,tsx}": [
+			"npm run format",
+			"npm run lint"
+		]
+	}
+}
