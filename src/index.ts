@@ -2,10 +2,10 @@
 
 import { cac } from "cac";
 import { getProjectContext } from "./cli/context.js";
-import { log } from "./utils/log.js";
-import { askAuthFramework, askDatabase, askOrm, askOAuthProviders } from "./cli/prompts.js";
+import { askAuthFramework, askDatabase, askOAuthProviders, askOrm } from "./cli/prompts.js";
 import { PROVIDERS } from "./core/registry.js";
 import { runProvider } from "./core/runner.js";
+import { log } from "./utils/log.js";
 
 const cli = cac("setup-auth");
 

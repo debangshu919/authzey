@@ -1,6 +1,6 @@
-import type { AuthProvider } from "./provider.js";
 import type { ProjectContext } from "../cli/context.js";
 import { log } from "../utils/log.js";
+import type { AuthProvider } from "./provider.js";
 
 export async function runProvider(provider: AuthProvider, ctx: ProjectContext) {
 	log.info(`\n⚙ Setting up ${provider.name}...\n`);

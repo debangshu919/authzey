@@ -1,13 +1,13 @@
-import path from "node:path";
 import crypto from "node:crypto";
-import type { AuthProvider } from "../../core/provider.js";
+import path from "node:path";
 import type { ProjectContext } from "../../cli/context.js";
-import { installPackages } from "../../utils/pkg.js";
+import { OAUTH_PROVIDERS } from "../../core/oauth.js";
+import type { AuthProvider } from "../../core/provider.js";
 import { addEnvVars } from "../../utils/env.js";
 import { writeFileSafe } from "../../utils/fs.js";
-import { setupDrizzle } from "./db/drizzle.js";
-import { OAUTH_PROVIDERS } from "../../core/oauth.js";
+import { installPackages } from "../../utils/pkg.js";
 import { loadTemplate } from "../../utils/template.js";
+import { setupDrizzle } from "./db/drizzle.js";
 
 export const BetterAuthProvider: AuthProvider = {
 	id: "betterAuth",

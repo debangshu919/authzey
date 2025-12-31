@@ -1,10 +1,10 @@
 import path from "node:path";
 import type { DatabaseType, ProjectContext } from "../../../cli/context.js";
+import { runCommand } from "../../../utils/cmd.js";
+import { addEnvVars } from "../../../utils/env.js";
 import { writeFileSafe } from "../../../utils/fs.js";
 import { installDevPackages, installPackages } from "../../../utils/pkg.js";
 import { loadTemplate } from "../../../utils/template.js";
-import { runCommand } from "../../../utils/cmd.js";
-import { addEnvVars } from "../../../utils/env.js";
 import { renderDatabaseProviderImports, renderMinimalDatabaseProvider, renderOAuthProviders } from "../util.js";
 
 /*

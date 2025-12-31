@@ -1,9 +1,9 @@
 import prompts from "prompts";
-import { PROVIDERS } from "../core/registry.js";
+import { OAUTH_PROVIDERS, type OAuthProvider } from "../core/oauth.js";
 import type { AuthProvider } from "../core/provider.js";
+import { PROVIDERS } from "../core/registry.js";
 import { log } from "../utils/log.js";
 import type { DatabaseType, OrmType } from "./context.js";
-import { type OAuthProvider, OAUTH_PROVIDERS } from "../core/oauth.js";
 
 export async function askAuthFramework(): Promise<AuthProvider> {
 	const response = await prompts({
