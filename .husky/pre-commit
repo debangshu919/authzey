@@ -9,4 +9,4 @@ npx tsc --build --noEmit || exit 1
 echo "RUNNING TESTS"
 npx jest --passWithNoTests || exit 1
 
-echo "✅ALL CHECKS PASSED"
+echo "✔ ALL CHECKS PASSED"
