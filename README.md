@@ -5,6 +5,7 @@
 <div align="center">
 <h2>Simplify your authentication workflow</h2>
 
+<img alt="Tests" src="https://img.shields.io/github/actions/workflow/status/debangshu919/authzey/run-tests.yml?branch=main&style=for-the-badge&logo=jest&logoColor=9c485f&label=tests&cacheSeconds=600">
 <img alt="Code Quality Check" src="https://img.shields.io/github/actions/workflow/status/debangshu919/authzey/code-quality.yml?branch=main&style=for-the-badge&logo=biome&label=lint">
 <img alt="License" src="https://img.shields.io/github/license/debangshu919/authzey?style=for-the-badge">
 
