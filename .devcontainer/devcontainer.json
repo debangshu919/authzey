@@ -8,7 +8,6 @@
 		"vscode": {
 			"extensions": [
 				"biomejs.biome",
-				"bradlc.vscode-tailwindcss",
 				"orta.vscode-jest",
 				"usernamehw.errorlens",
 				"eamodio.gitlens",
