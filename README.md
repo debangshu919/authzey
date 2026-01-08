@@ -5,8 +5,8 @@
 <div align="center">
 <h2>Simplify your authentication workflow</h2>
 
-<img alt="NPM Version" src="https://img.shields.io/npm/v/authzey?style=for-the-badge&logo=npm&color=%23155DFC">
-<img alt="NPM Downloads" src="https://img.shields.io/npm/dm/authzey?style=for-the-badge&logo=npm">
+<a href="https://www.npmjs.com/package/authzey" alt="Authzey"><img alt="NPM Version" src="https://img.shields.io/npm/v/authzey?style=for-the-badge&logo=npm&color=%23155DFC"></a>
+<a href="https://www.npmjs.com/package/authzey" alt="Authzey"><img alt="NPM Downloads" src="https://img.shields.io/npm/dm/authzey?style=for-the-badge&logo=npm"></a>
 <img alt="License" src="https://img.shields.io/github/license/debangshu919/authzey?style=for-the-badge&color=%23FE9A37">
 <img alt="Tests" src="https://img.shields.io/github/actions/workflow/status/debangshu919/authzey/run-tests.yml?branch=main&style=for-the-badge&logo=jest&logoColor=9c485f&label=tests&cacheSeconds=600">
 <img alt="Code Quality Check" src="https://img.shields.io/github/actions/workflow/status/debangshu919/authzey/code-quality.yml?branch=main&style=for-the-badge&logo=biome&label=lint">
